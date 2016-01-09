@@ -1,0 +1,31 @@
+h1 {
+    color: black;
+}
+
+.climbing img {
+    float: right;
+    margin-right: 200px;
+    width: 400px;
+    height: 300px;
+    border: 10px solid black;
+}
+.paragliding img {
+  float: left;
+  margin-left: 200px;
+  width: 400px;
+  height: 300px;
+  border: 10px solid black;
+}
+}
+/* p .quote {
+  font-style: italic;*/    /*this did not work!!!!*/
+}
+footer {      /*footer isn't in the footer!!*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+
+
+}
