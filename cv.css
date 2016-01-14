@@ -1,6 +1,30 @@
-h1 {
-  color: rgb(132,183,134);
+body {
+  width: 90%;
+  margin: 0 auto;
 }
-h4 {
-  text-align: right;
+
+#content {
+  overflow: auto;
+}
+#nav {
+  margin: 1%;
+  background-color: #efefef;
+  padding: 0.5em;
+  text-align: center;
+}
+li {
+  display: inline;
+  padding: 0.5em ;
+}
+a {
+  color: black;
+}
+h1 {
+  margin-left: 0%;
+}
+aside {
+  margin-right: 0%;
+  float: right;
+  line-height: 40%;
+
 }
