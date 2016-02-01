@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>portfolio</title>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <meta charset="utf-8">
+</head>
+<!--<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script> -->
+<script type="text/javascript"></script>
+
+<body>
+  <h1>Doaa Alsharif</h2>
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="http://quicksilver.be.washington.edu/courses/arch482/0.default.html"> Web Weaving </a></li>
+      <li><a href="myFirstPage.html"> About me</a></li>
+      <li><a href="coming-soon.png">CV</a></li>
+      <li><a href="coming-soon.png">Portfolio</a></li>
+      <li><a href="http://validator.w3.org/check?uri=referer"> Validation Service </a></li>
+    </ul>
+  </nav>
+  <div id="closeups">
+    <!--<img src="villa_small.png"/>-->
+
+   <!-- <img src="villa_small.png" onMouseover="this.src='villa_small_color.png'"/> -->
+    <!--<img src="villa_small.png" onmouseover="rollover(this)"
+      onmouseout="mouseaway(this)" /> -->
+
+   <!-- <img src="mosque_small.png" onMouseover="rollover(this,'mosque_small_color.png')"
+      onmouseout="mouseaway1(this)" /> -->
+
+    <img src="mosque_small.png" onMouseover="changeColor()"/>
+
+
+
+    <!--<img src="mosque_small_color.png" /> -->
+    <img src="museum_small_color.png"/>
+    <img src="recycling_small_color.png"/>
+    <img src="mixed_small_color.png"/>
+    <img src="fab_small_color.png"/>
+    <img src="p7_small_color.png"/>
+  </div>
+
+<!-- a JS to makee all img grayscale -->
+ <script>
+/* make images grayscale */
+
+  /*  var grayscale = document.getElementById("closeups");
+    grayscale.style.webkitFilter = "grayscale(100%)";
+
+
+/* rollover "switch colors" */
+
+  /* function rollover (picture1) {
+      picture1.style.webkitFilter="grayscale(100%)";
+    }*/
+   /* function mouseaway1(picture1) {
+      picture1.src = "villa_small.png";
+    } */
+
+   /* function rollover (pic,url) {
+      pic.src = url;
+    }
+    /*function mouseaway2 (picture2) {
+      picture2.src = "mosque_small.png";
+    }*/
+
+ function changeColor() {
+    var pictures = document.getElementById("closeups");
+    pictures.style.webkitFilter= "grayscale(1%)";
+  }
+var pictures = document.getElementById("closeups");
+var mouseOverFunction = function () {
+     this.style.webkitFilter= "grayscale(1%)";
+};
+pictures.onmouseover = mouseOverFunction;
+
+</script>
+
+</body>
+</html>
