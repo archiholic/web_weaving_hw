@@ -8,33 +8,33 @@
 </head>
 
 <body>
-  <h1>Doaa Alsharif</h2>
+  <h1>Doaa Alsharif</h1>
 <nav>
     <ul class="active">
       <li><a href="index.html">Home</a></li>
       <li><a href="http://quicksilver.be.washington.edu/courses/arch482/0.default.html"> Web Weaving </a></li>
       <li><a href="myFirstPage.html"> About me</a></li>
-      <li><a href="coming-soon.png">CV</a></li>
-      <li><a href="coming-soon.png">Portfolio</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href= "#">Portfolio</a></li>
       <li><a href="http://validator.w3.org/check?uri=referer"> Validation Service </a></li>
     </ul>
 </nav>
  <div id="closeups">
 
-   <a href="villa_page/villa.html">
-      <img src="villa_small.png" onmouseover="expand(this)" onmouseout="small(this)" onclick="popup()">
+   <a href="">
+      <img src="villa_small.png" alt="villa" onmouseover="expand(this)" onmouseout="small(this)" onclick="popup()">
    </a>
 
    <a href="recycling_page/recycling.html">
-      <img src="recycling_small.png" onmouseover="expand(this)" onmouseout="small(this)">
+      <img src="recycling_small.png" alt="recycling" onmouseover="expand(this)" onmouseout="small(this)">
    </a>
 
    <a href="fab_page/fab.html">
-      <img src="fab_small.png" onmouseover="expand(this)" onmouseout="small(this)">
+      <img src="fab_small.png" alt="fab" onmouseover="expand(this)" onmouseout="small(this)">
    </a>
 
    <a href="p7_page/p7.html">
-      <img src="p7_small.png" onmouseover="expand(this)" onmouseout="small(this)">
+      <img src="p7_small.png" alt="p7" onmouseover="expand(this)" onmouseout="small(this)">
    </a>
 
  </div>
@@ -43,18 +43,22 @@
 </body>
 
 <script>
+
+//change size on mouse in
     function expand(x) {
       x.style.height = "650px";
       x.style.width = "320px";
     }
 
+//change size on mouse out
     function small(x) {
-      x.style.height = "600px"
-      x.style.width = "273px"
+      x.style.height = "600px";
+      x.style.width = "273px";
     }
 
+//opens in a new window
     function popup() {
-    window.open("villa_page/villa.html", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=500, left=500, width=800, height=800");
+    window.open("villa_page/villa.html", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, width=800, height=800");
 }
 </script>
 </html>
