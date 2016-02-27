@@ -1,0 +1,67 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+dt {
+  font-weight: bold;
+  margin-left: 20px;
+
+}
+dd {
+  display: block;
+  margin-left: 25px;
+  margin-bottom: 15px;
+
+}
+h1 {
+  background-color: #efefef;
+  padding: 50px;
+  border-bottom: solid #ff9926 5px;
+}
+
+p.profile {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+}
+h3 {
+  color: #ff9926;
+}
+
+.heading {
+  border-bottom: dashed 1px;
+  padding-left : 100px;
+  line-height: 25px;
+
+}
+.skills {
+  display: block;
+  margin-left: 25px;
+  margin-bottom: 0px;
+}
+
+a {
+  color: black;
+}
+
+#footer {
+  /*margin: auto;*/
+  background-color: #efefef;
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+}
+li {
+  display: inline;
+  list-style-type: none;
+  padding: 8px ;
+}
+li.nav {
+  display: inline;
+  list-style-type: none;
+  padding: auto;
+  margin: auto;
+}
+
+

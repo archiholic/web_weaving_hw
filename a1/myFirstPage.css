@@ -1,0 +1,68 @@
+h1 {
+    color: black;
+}
+
+.climbing img {
+
+    margin: auto;
+    width: 400px;
+    height: 300px;
+
+}
+.paragliding img {
+
+  margin: auto;
+  width: 400px;
+  height: 300px;
+
+}
+}
+/* p .quote {
+  font-style: italic;*/    /*this did not work!!!!*/
+}
+footer {      /*footer isn't in the footer!!*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-top: 300px;
+}
+/*#validation {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}*/
+nav {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    padding: 10px;
+}
+
+
+a {
+  color: black;
+  margin: center;
+  text-align: center;
+  padding-left: 0px
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+
+
